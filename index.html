@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=5" />
   <link rel="icon" href="devchallenges.png" />
   <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="./styles/css/styles.css">
   <title>Edie Homepage</title>
 </head>
@@ -22,102 +23,124 @@
     </header>
 
     <main>
-      <section id="#home">
-        <p>Unhappy with your website?</p>
+      <section id="#home" class="home">
+        <p class="p_blue">Unhappy with your website?</p>
         <h2>We create beautiful and fast web services</h2>
 
-        <img src="" alt="">
+        <img src="./img/heroImage.jpg" alt="">
 
-        <h2>Story, emotion and purpose</h2>
-        <p>We help transform your ideas into real world applications that will outperform your toughest 
+        <h2 class="h2_subtitle">Story, emotion and purpose</h2>
+        <p class="text_subtitle">We help transform your ideas into real world applications that will outperform your toughest 
           competition and help you achieve your strategic goals in short period of time.</p>
 
-          <div>
-            <p>Want us to contact you?</p>
-            <div>
-              <label for="email">
+          <div class="contact_box">
+            <p class="contact_text">Want us to contact you?</p>
+            <div class="input_box">
+              
                 <input type="email" placeholder="Email">
-                <button>Join</button>
-              </label>
+                <button class="btn_join">Join</button>
+            
             </div>
           </div>
       </section>
 
-      <section id="services">
-        <h3>We offer high demand services  </h3>
+      <section id="services" class="services">
+        <h3 class="services_title">We offer high demand services</h3>
 
-        <div>
-          <div>
-            <div>
-              <i></i>
+        <div class="card_container">
+          <div class="card_box">
+            <div class="icon_box icon_box_blue">
+              <span class="material-icons">
+                edit
+              </span>
             </div>
-            <p>We offer high demand services</p>
+            <p class="card_title">UI/UX Design</p>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            <p class="card_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                Duis a metus ac nulla consequat aliquet id quis turpis.</p>
 
-            <button>Get started</button>
+            <button class="card_btn">Get started</button>
           </div>
 
-          <div>
-            <div>
-              <i></i>
+          <div class="card_box">
+            <div class="icon_box icon_box_green">
+              <span class="material-icons arrow">
+                unfold_more
+                </span>
             </div>
-            <p>Front End</p>
+            <p class="card_title">Front End</p>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            <p  class="card_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                Duis a metus ac nulla consequat aliquet id quis turpis.</p>
 
-            <button>Get started</button>
+            <button class="card_btn">Get started</button>
           </div>
 
-          <div>
-            <div>
-              <i></i>
+          <div class="card_box">
+            <div class="icon_box icon_box_red">
+              <span class="material-icons">
+                storage
+                </span>
             </div>
-            <p>Back End</p>
+            <p class="card_title">Back End</p>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            <p  class="card_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                Duis a metus ac nulla consequat aliquet id quis turpis.</p>
 
-            <button>Get started</button>
+            <button class="card_btn">Get started</button>
           </div>
         </div>
 
       </section>
+<!--
+      <section id="our-works" class="our_works">
+        <h3 class="our_works_title">Good design means good business</h3>
 
-      <section id="our-works">
-        <h3>Good design means good business</h3>
+        <div class="container">
 
-        <div>
+          <div>
+            <img class="our_work_img" src="./img/smarthome.jpg" alt="smart home">
+            <div class="img_container">
+              <p class="img_title">Full stack application</p>
+              <p class="img_text">Smart home dashboard</p>
+            </div>
+          </div>
+
+          <div>
+            <img class="our_work_img" src="./img/onboard.png" alt="">
+            <div class="img_container">
+              <p class="img_title">Mobile application</p>
+              <p class="img_text">Booking system</p>
+            </div>
+          </div>
+         
+        </div>
+
+
           <figure>
-            <img src="" alt="">
-            <figcaption>Full stack application</figcaption>
-            <p>Smart home dashboard</p>
-          </figure>
-
-          <figure>
-            <img src="" alt="">
+            <img src="./img/booking.png" alt="">
             <figcaption>Mobile application</figcaption>
             <p>Booking system</p>
           </figure>
-        </div>
+     
 
         <div>
           <figure>
-            <img src="" alt="">
+            <img src="./img/onboard.png" alt="">
             <figcaption>UX/UI design</figcaption>
             <p>Onboard application</p>
           </figure>
 
           <figure>
-            <img src="" alt="">
+            <img src="./img/juice-product.png" alt="">
             <figcaption>Front End application</figcaption>
             <p>Juice product homepage</p>
           </figure>
         </div> 
 
-        <p>see more</p>
+        <div>
+          <p class="see_more">see more 🠢</p>
+        </div>
       </section>
 
       <section id="team">
