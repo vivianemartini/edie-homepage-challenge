@@ -1,0 +1,31 @@
+//Fonts
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+:root {
+    --heading-h2: 48px;
+    --heading-h3: 36px;
+
+    --paragraph1: 24px;
+    --paragraph2: 18px;
+    --paragraph3: 16px;
+    --paragraph4: 14px;
+}
+
+//Colors
+:root {
+    --white: #FFFFFF;
+
+    --gray-1: #333333;
+    --gray-2: #4F4F4F;
+    --gray-3: #828282;
+    --gray-6: #F2F2F2;
+
+    --bg-btn: #E0E0E0;
+
+    --blue: #2D9CDB;
+    --green: #27AE60;
+    --red: #EB5757; 
+}
+
