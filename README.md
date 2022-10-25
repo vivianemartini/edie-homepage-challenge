@@ -45,7 +45,7 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
   [Here]()
 
 - What have you learned/improved?
-  - Add responsive style
+  - Add menu hamburger
 
 ### Built With
 
