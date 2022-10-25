@@ -75,3 +75,20 @@
     height: 400px;
     margin-left: 405px;
 }
+
+@media only screen and (min-width: 1920px) {
+    .team {
+        margin-top: 300px;
+        margin-left: 150px;
+    }
+    .man_img_1  {
+        margin-top: -210px;
+        margin-left: 110px;
+    }
+    .man_img_2 {
+     
+        margin-top: 200px;
+        margin-left: 200px;
+    } 
+    
+}

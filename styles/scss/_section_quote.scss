@@ -50,3 +50,10 @@ blockquote {
     line-height: 27px;
     color: var(--gray-3);
 }
+
+@media only screen and (min-width: 1920px) { 
+    .quote {
+        margin-top: 500px;
+        margin-left: 150px;
+    }
+}
