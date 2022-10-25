@@ -1,0 +1,114 @@
+.footer {
+    margin-top: 300px;
+    height: 385px;
+    background: #100E1D;
+}
+
+.footer_nav {
+    width: 92px;
+    height: 180px;
+    top: 38px;
+    margin-left: 160px;
+    position: relative;
+}
+
+.footer_nav ul li a {
+    font-weight: 400;
+    font-size: var(--paragraph2);
+    line-height: 200%;
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--paragraph2);
+    color: var(--white);
+    text-decoration: none;
+}
+
+.footer_social {
+    border: 1px solid white;
+    width: 92px;
+ 
+    //position: relative;
+}
+
+.footer_social_name {
+    color: var(--gray-6);
+    line-height: 53px;
+    font-size: var(--heading-h3);
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 800;
+
+    margin-top: -140px;
+    margin-left: 460px;
+}
+
+.icons {
+    width: 150px;
+    height: 80px;
+    display: flex;  
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 420px;
+}
+
+.social_icon {
+    color: var(--white);
+    height: 6%;
+    width: 6%;
+    margin-left: -40px;
+    margin-top: -40px;
+}
+
+.contact_box_footer {
+    width: 366px;
+    margin-top: -130px;
+    margin-left: 850px;
+}
+
+.contact_text_footer {
+    color: var(--gray-6);
+    line-height: 21px;
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--paragraph4);
+    font-weight: 500;
+}
+
+.btn_join_footer {
+    background-color: var(--blue);
+    color: var(--gray-6);
+    border-radius: 12px;
+    position: absolute;
+    width: 94px;
+    height: 49px;
+    border: none;
+    cursor: pointer;
+    margin-left: 268px;
+    font-size: var(--paragraph2);
+
+    &:hover {
+        background-color: var(--blue-hover);
+        border: 1px solid var(--blue);
+    }
+}
+
+.dev_name {
+    text-align: center;
+    cursor: pointer;
+    color: var(--gray-6);
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: var(--paragraph4);
+    line-height: 17px;
+    margin-top: 200px;
+}
+
+.dev_name a {
+    color: var(--gray-6);
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: var(--paragraph4);
+    line-height: 17px;
+   
+}

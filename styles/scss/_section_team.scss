@@ -1,0 +1,77 @@
+.team {
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+
+.p_red {
+    color: var(--red);
+    font-family: 'Poppins', sans-serif;
+    line-height: 27px;
+    font-size: var(--paragraph2);
+    width: 256px;
+    font-weight: 500;
+}
+
+.team_title {
+    width: 300px;
+    color: var( --gray-1);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 54px;
+    font-size: var(--heading-h3);
+}
+
+.team_text {
+    color: var(--gray-2);
+    line-height: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--paragraph3);
+    font-weight: 400;
+    width: 300px;
+}
+
+.img_container_people {
+ width: 700px;
+ height: 300px;
+ margin-left: 405px;
+ margin-top: -300px;
+ display: flex;
+
+}
+
+.woman_img {
+    border-radius: 24px;
+    width: 25%;
+    height: 50%;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.man_img_1 {
+    width: 15%;
+    height: 30%;
+    border-radius: 24px;
+    margin-top: -210px;
+    margin-left: -120px;
+    
+} 
+
+.man_img_2 {
+    width: 25%;
+    height: 50%;
+    border-radius: 24px;
+    margin-top: 40px;
+    margin-left: -60px;
+} 
+
+
+.img_container_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 350px;
+    height: 400px;
+    margin-left: 405px;
+}

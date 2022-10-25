@@ -1,0 +1,52 @@
+.quote {
+    margin-top: 300px;
+    margin-left: 165px;
+}
+
+blockquote {
+    position: absolute;
+    width: 937px;
+    height: 162px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    color: var(--gray-1);
+
+}
+
+.quote_img {
+    width: 82px;
+    height: 82px;
+    margin-left: 0px; 
+}
+
+.quote_name_box {
+    width: 300px;
+    height: 100px;
+    position: relative;
+    margin-left: 100px;
+    top: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.quote_name {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--gray-1);
+}
+
+.quote_subname {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--gray-3);
+}
