@@ -92,3 +92,34 @@
     } 
     
 }
+
+@media (max-width: 480px) {
+    .team {
+        margin-top: 100px;
+        margin-left: 30px;
+    }
+    .img_container_people {
+        margin-top: 30px;
+        margin-left: 0px;
+        width: 400px;
+    }
+    .woman_img {
+        width: 50%;
+        height: 50%;
+        margin-top: 60px;
+        margin-left: -15px;
+    }
+    
+    .man_img_1 {
+        width: 30%;
+        height: 30%;
+        margin-top: -140px;
+        margin-left: -90px;
+    }
+    .man_img_2 {
+        width: 40%;
+        height: 40%;
+        margin-top: 50px;
+        margin-left: -70px;
+    }
+}
