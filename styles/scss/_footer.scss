@@ -143,15 +143,25 @@ a.twitter {
     }
     .footer_cont {
         flex-direction: column;
-        border-bottom: none;
+        align-items: start;
+    }
+    .footer_nav {
+        margin-left: 60px;
+    }
+    .footer_social_name {
+        margin-left: 60px;
     }
     .social_icon_box {
-        margin-left: 80px;
+        margin-left: 60px;
+        gap: 0px;
     }
     .social_icon {
         color: var(--white);
         height: 6%;
         width: 4%;
+    }
+    .contact_box_footer {
+        margin-left: 60px;
     }
     .dev_name {
         border: none;
