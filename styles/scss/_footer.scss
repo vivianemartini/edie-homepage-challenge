@@ -3,11 +3,16 @@
     height: 385px;
     background: #100E1D;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+ 
+ 
+}
+
+.footer_cont {
+    width: 1200px;
+    display: flex;
     align-items: center;
     justify-content: space-around;
- 
- 
 }
 
 .footer_nav {
@@ -23,12 +28,6 @@ ul li a {
     font-size: var(--paragraph2);
     color: var(--white);
     text-decoration: none;
-    color: var(--white);
-}
-
-.footer_social {
-    border: 1px solid white;
-    width: 92px;
 }
 
 .footer_social_name {
@@ -38,17 +37,23 @@ ul li a {
     font-family: 'Heebo';
     font-style: normal;
     font-weight: 800;
+    margin-left: 80px;
 }
 
 .icons {
-    width: 150px;
+    width: 250px;
     height: 150px;
+}
+
+.social_icon_box {
+    width: 150px;
+    height: 50px;
     display: flex;  
     align-items: center;
-    justify-content: space-between;
-    gap: 45px;
-
+    justify-content: space-evenly;
+    margin-left: 50px;
 }
+
 
 a.twitter {
     margin-top: 4px;
@@ -58,8 +63,8 @@ a.twitter {
     color: var(--white);
     height: 6%;
     width: 6%;
-    margin-left: -150px;
-    margin-top: 30px;
+    margin-left: -40px;
+    margin-top: -20px;
 }
 
 .contact_box_footer {
@@ -117,35 +122,36 @@ a.twitter {
 
 @media only screen and (min-width: 1920px) {
     .icons {
-        justify-content: space-between;
+        justify-content: space-around;
     }
-    .contact_box_footer {
-        margin-left: 1350px;
+    .social_icon_box {
+        margin-left: -10px;
+        width: 250px;
+        gap: 10px;
+    }
+    .footer_cont {
+        width: 1400px;
+        justify-content: space-evenly;
     }
     
 }
 
 @media (max-width: 480px) {
     .footer {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
         height: 700px;
+    }
+    .footer_cont {
+        flex-direction: column;
         border-bottom: none;
+    }
+    .social_icon_box {
+        margin-left: 80px;
     }
     .social_icon {
         color: var(--white);
         height: 6%;
         width: 4%;
-        margin-left: -130px;
     }
-    .footer_social_name {
-        margin-left: 20px;
-    }
-    .icons {
-        margin-left: 20px;
-    }
-  
     .dev_name {
         border: none;
     }
