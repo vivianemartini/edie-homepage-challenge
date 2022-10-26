@@ -19,6 +19,10 @@
     <a href="https://devchallenges.io/challenges/xobQBuf8zWWmiYMIAZe0">
       Challenge
     </a>
+       <span> | </span>
+    <a href="#contribution">
+      Contribution
+    </a>
   </h3>
 </div>
 
@@ -76,6 +80,11 @@ $ npm install
 # Run the app
 $ npm start
 ```
+
+## Contribution
+Any contributions are highly appreciated. 🙏 
+
+ - fork the project and submit a PR with your new idea.
 
 ## Contact
 
