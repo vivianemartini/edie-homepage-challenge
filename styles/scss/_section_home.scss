@@ -100,3 +100,54 @@ img {
         border: 1px solid var(--blue);
     }
 }
+
+@media only screen and (min-width: 1920px) {
+    img {
+        width: 1850px;
+        height: 454px;
+    }
+    .h2_subtitle{
+        margin-top: 500px;
+      }
+}
+
+@media (max-width: 480px) {
+    .home {
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+    .p_blue {
+        font-size: var(--paragraph5);
+        line-height: 18px
+    }
+    h2 {
+        font-size: var(--paragraph1);
+        line-height: 36px;
+        width: 272px;
+        height: 72px;
+    }
+    img {
+        width: 440px;
+        height: 160px;
+        margin-left: -20px;
+        margin-top: 140px;
+    }
+    .h2_subtitle{
+        margin-top: 210px;
+    }
+    .text_subtitle{
+        font-size: var(--paragraph5);
+        line-height: 18px;
+        margin-top: 32px;
+    }
+    .contact_text {
+        font-size: var(--paragraph6);
+        line-height: 15px;
+    }
+    .btn_join{
+        font-size: var(--paragraph4);
+        line-height: 21px;
+    }
+
+
+}
