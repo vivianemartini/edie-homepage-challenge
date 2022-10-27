@@ -81,13 +81,6 @@ $ npm install
 $ npm start
 ```
 
-## Contribution
-Any contributions are highly appreciated. 🙏 
-
- - fork the project 
- - crate a new branch
- - submit a PR with your new idea.
-
 ## Contact
 
 - GitHub [@vivianemartini](https://github.com/vivianemartini)
