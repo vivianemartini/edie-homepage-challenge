@@ -35,15 +35,3 @@ li {
         cursor: pointer;
     }
 }
-
-
-@media (max-width: 480px) { 
-    h1{
-        margin-left: 5px;
-        font-size: var(--paragraph1);
-        line-height: 35px;
-    }
-    nav {
-        display: none;
-    }
-}
