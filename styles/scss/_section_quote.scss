@@ -10,7 +10,7 @@ blockquote {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: var(--heading-h3);
+    font-size: 36px;
     line-height: 54px;
     color: var(--gray-1);
 
@@ -49,33 +49,4 @@ blockquote {
     font-size: 18px;
     line-height: 27px;
     color: var(--gray-3);
-}
-
-@media only screen and (min-width: 1920px) { 
-    .quote {
-        margin-top: 500px;
-        margin-left: 150px;
-    }
-}
-
-
-@media (max-width: 480px) {
-    .quote {
-        margin-top: 150px;
-        margin-left: 30px;
-    }
-    blockquote {
-        font-size: var(--paragraph1);
-        line-height: 36px;
-        width: 351px;
-        height: 180px;
-    }
-    .quote_img {
-        margin-top: 270px;
-    }
-    .quote_name_box {
-        top: 260px;
-    }
-
-
 }
