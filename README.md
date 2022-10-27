@@ -49,7 +49,7 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
   [Here](https://vivianemartini.github.io/edie-homepage-challenge/)
 
 - What have you learned/improved?
-  - Add menu hamburger
+  - Add responsive style
 
 ### Built With
 
