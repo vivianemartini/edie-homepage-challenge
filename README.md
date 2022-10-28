@@ -85,3 +85,7 @@ $ npm start
 
 - GitHub [@vivianemartini](https://github.com/vivianemartini)
 - Twitter [@coffeeeandcode](https://twitter.com/coffeeeandcode)
+
+-----
+
+ps. due to some issues with contributers in this repo, the contributions for hacktoberfest had to be limited
