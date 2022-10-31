@@ -2,17 +2,25 @@
     margin-top: 300px;
     height: 385px;
     background: #100E1D;
+    display: flex;
+    justify-content: center;
+ 
+ 
+}
+
+.footer_cont {
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .footer_nav {
     width: 92px;
     height: 180px;
-    top: 38px;
-    margin-left: 160px;
-    position: relative;
 }
 
-.footer_nav ul li a {
+ul li a {
     font-weight: 400;
     font-size: var(--paragraph2);
     line-height: 200%;
@@ -22,13 +30,6 @@
     text-decoration: none;
 }
 
-.footer_social {
-    border: 1px solid white;
-    width: 92px;
- 
-    //position: relative;
-}
-
 .footer_social_name {
     color: var(--gray-6);
     line-height: 53px;
@@ -36,16 +37,18 @@
     font-family: 'Heebo';
     font-style: normal;
     font-weight: 800;
-
-    margin-top: -140px;
-    margin-left: 460px;
+    margin-left: 80px;
 }
 
 .icons {
+    width: 250px;
+    height: 150px;
+}
+
+.social_icon_box {
     width: 150px;
-    height: 80px;
+    height: 50px;
     display: flex;  
-    flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
     margin-left: 50px;
@@ -62,13 +65,11 @@ a.twitter {
     height: 6%;
     width: 6%;
     margin-left: -40px;
-    margin-top: -40px;
+    margin-top: -20px;
 }
 
 .contact_box_footer {
     width: 366px;
-    margin-top: -130px;
-    margin-left: 850px;
 }
 
 .contact_text_footer {
@@ -98,6 +99,7 @@ a.twitter {
 }
 
 .dev_name {
+    padding: 10px;
     text-align: center;
     cursor: pointer;
     color: var(--gray-6);
@@ -106,7 +108,7 @@ a.twitter {
     font-weight: 500;
     font-size: var(--paragraph4);
     line-height: 17px;
-    margin-top: 200px;
+    background: #100E1D;
 }
 
 .dev_name a {
@@ -116,6 +118,7 @@ a.twitter {
     font-weight: 500;
     font-size: var(--paragraph4);
     line-height: 17px;
+   
 }
 
 @media only screen and (min-width: 1920px) {
