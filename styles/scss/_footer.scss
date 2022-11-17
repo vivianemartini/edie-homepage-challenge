@@ -109,6 +109,7 @@ a.twitter {
     font-size: var(--paragraph4);
     line-height: 17px;
     background: #100E1D;
+    width: 600px;
 }
 
 .dev_name a {
@@ -140,6 +141,7 @@ a.twitter {
 @media (max-width: 480px) {
     .footer {
         height: 700px;
+        width: 600px;
     }
     .footer_cont {
         flex-direction: column;

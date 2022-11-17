@@ -98,10 +98,10 @@ header {
       top: 0;
       left: 0;
       width: 100vw;
-      height: 100vh;
+      height: 130vh;
       margin: 0;
       padding: 0;
-      background-color: rgba(0, 0, 0, 0.7);
+      background-color: #000000;
     }
   
     .overlay-slide-right {
@@ -125,23 +125,27 @@ header {
     }
   
     nav li:nth-of-type(1) {
-      background-color: #828282;
+      background-color: var(--gray-3);
     }
   
     nav li:nth-of-type(2) {
-      background-color: #8f4c26;
+      background-color: var(--brown);
     }
   
     nav li:nth-of-type(3) {
-      background-color: #212530;
+      background-color: var(--blue-navi);
     }
   
     nav li:nth-of-type(4) {
-      background-color: #ea6e70;
+      background-color: var(--red-light);
     }
   
     nav li:nth-of-type(5) {
-      background-color: #29526b;
+      background-color: var(--blue-ocean);
+    }
+
+    nav li:nth-of-type(6) {
+      background-color: var(--green);
     }
   
     nav li a {
@@ -217,7 +221,7 @@ header {
     .slide-out-5 {
       animation: slide-out 0.3s linear 0.1s both;
     }
-  
+    
     @keyframes slide-out {
       from {
         transform: translateX(0);
